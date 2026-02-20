@@ -7,5 +7,6 @@ usage
     fif [nozip] filemask pattern | filename [except_dir1 ... except_dirN]
 
 fif "*.*" test - search test in all files
+
 fif "*.*" file1 dir1 dir3 - search patterns from file1 (one pattern per line) in all files except dir1 and dir3
 
