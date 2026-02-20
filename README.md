@@ -4,7 +4,8 @@ find text in files (doc(x), xls(x), xlsm, pdf, images, odt, ods)
 uses gs, tesseract, pdftotext, 7zip
 
 usage
-    fif [nozip] filemask pattern | filename [except_dir1 ... except_dirN]
+
+    fif [nozip] {filemask pattern | filename} [except_dir1 ... except_dirN]
 
 fif "*.*" test - search test in all files
 
